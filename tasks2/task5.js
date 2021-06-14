@@ -1,7 +1,7 @@
 function isPalindrome(str) {
     str = str.toLowerCase().replace(/\W/g, '');
     let reverse = str.split('').reverse().join('');
-    return str == reverse;
+    return str === reverse;
 }
 console.log(isPalindrome('sator arepo tenet opera rotas'));
 console.log(isPalindrome('No lemon, no melon'));

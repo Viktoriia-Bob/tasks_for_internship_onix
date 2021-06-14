@@ -5,8 +5,8 @@ const obj = {
     Thursday: 7,
     Friday: 5
 }
-let days = Object.keys(obj).map(key => key);
-let values = Object.values(obj).map(value => value);
+let days = Object.keys(obj);
+let values = Object.values(obj);
 
 const workHours = values.reduce((a, b) => a + b);
 
